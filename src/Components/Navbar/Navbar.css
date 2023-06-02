@@ -1,0 +1,32 @@
+.nav-container{
+    /* opacity: 0.5; */
+    
+    background-color: rgba(20,33,61,0.9) !important;
+    
+}
+
+.container-fluid a{
+    color: #fca311;
+    cursor: pointer;
+    opacity: 1.2;
+}
+
+.container-fluid a:hover{
+    color: #fca311;
+
+}
+/* 
+.nav-btn{
+    background-color: #d62828;
+    color: #ffffff;
+    border: none;
+}
+
+.nav-btn:hover{
+    background-color: #d62828;
+
+}
+
+.nav-btn:focus{
+    background-color: #d62828;
+} */

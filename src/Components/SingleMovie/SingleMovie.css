@@ -1,0 +1,101 @@
+.single-movie-page{
+    background-color: #14213d;
+    color: #ffffff;
+    
+}
+
+.bg-img-container{
+    width: 100%;
+    background-color: #14213d;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bg-img-container img{
+    width: 80%;
+    height: 90%;
+    border-radius: 15px;
+}
+
+.image-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.detail-container{
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: #14213d;
+}
+
+.detail-container button{
+    margin-left: 5px;
+}
+
+.title{
+    font-weight: 400;
+   
+}
+
+.rating{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.overview{
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info h2{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.info h2 span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #e5e5e5;
+}
+
+hr{
+    margin-top: 3px;
+}
+
+.book-now-div{
+    position: relative;
+    text-align: center;
+}
+
+.book-now-btn{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.book-now-btn:hover{
+    box-shadow: 0 0 0.625em #fca311;
+}
+
+@media (min-width:950px){
+    .bg-img-container{
+        flex-direction: row;
+    }
+    
+    .image-container img{
+        width: 70%;
+        height: 90%;
+    }
+}
